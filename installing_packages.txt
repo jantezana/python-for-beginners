@@ -1,0 +1,13 @@
+#######################
+# INSTALLING PACKAGES #
+#######################
+
+# Install an individual package
+pip install colorama
+
+# Install from a list of PACKAGES
+pip install -r requiremenets.txt
+
+# requiremenets.txt
+colorama
+

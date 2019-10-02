@@ -1,0 +1,25 @@
+###############################
+# CREATE VIRTUAL ENVIRONMENTS #
+###############################
+# Install virtual environment
+pip install virtualenv
+
+# Windows systems
+python -m venv <folder_name>
+
+# OSX/Linux (bash)
+virtualenv <folder_name>
+
+
+##############################
+# USING VIRTUAL ENVIRONMENTS #
+##############################
+# Windows systems
+# cmd.exe
+<folder_name>\Scripts\Activate.bat
+# Power Shell
+<foler_name>\Scripts\Activate.ps1
+# bash Shell
+. ./<folder_name>/Scripts/Activate
+# OSX/Linux
+<folder_name>/bin/activate
